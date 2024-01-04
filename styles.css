@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: grey;
+  border: 10px black solid;
+  height: 500px;
+  width: 400px;
+  border-radius: 16px;
+  gap: 32px;
+  padding: 32px;
+  margin: 64px;
+}
+
+.calculator-screen {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  border-radius: 16px;
+  border: 8px black solid;
+  background-color: lightgray;
+  padding: 8px;
+}
+
+#screen-big-num {
+  display: flex;
+  align-items: center;
+  flex: 2;
+  border: 4px red solid;
+  font-size: 30px;
+}
+
+#screen-small-num {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  border: 4px red solid;
+  font-size: 16px;
+}
+
+.clear-delete {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+#clear-button, #delete-button {
+  flex: 1;
+  border-radius: 8px;
+  border: 4px black solid;
+}
+
+#clear-button {
+  background-color: lightpink;
+}
+
+#delete-button {
+  background-color: lightblue;
+}
+
+.buttons {
+  min-width: 0;
+  min-height: 0;
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.button-row {
+  min-width: 0;
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.input-button {
+  flex: 1;
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+  border: 2px black solid;
+}
