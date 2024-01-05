@@ -28,14 +28,13 @@ body {
   border-radius: 16px;
   border: 8px black solid;
   background-color: lightgray;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 #screen-big-num {
   display: flex;
   align-items: center;
   flex: 2;
-  border: 4px red solid;
   font-size: 30px;
 }
 
@@ -43,7 +42,6 @@ body {
   display: flex;
   align-items: center;
   flex: 1;
-  border: 4px red solid;
   font-size: 16px;
 }
 
